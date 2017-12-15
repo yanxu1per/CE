@@ -14,6 +14,15 @@
 		2C16671C1FD32EB900C1A063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C16671A1FD32EB900C1A063 /* LaunchScreen.storyboard */; };
 		2C1667271FD32EB900C1A063 /* CETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1667261FD32EB900C1A063 /* CETests.swift */; };
 		2C1667321FD32EB900C1A063 /* CEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1667311FD32EB900C1A063 /* CEUITests.swift */; };
+		2C2BE70E1FE3681F00522FC8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2BE70D1FE3681F00522FC8 /* 1.png */; };
+		2C2BE7101FE37D6C00522FC8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2BE70F1FE37D6C00522FC8 /* 2.png */; };
+		2CE72B0F1FD4CA5900C77412 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2CE72B0E1FD4CA5900C77412 /* test.txt */; };
+		2CE72B111FD4CCB100C77412 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CE72B101FD4CCB100C77412 /* GoogleService-Info.plist */; };
+		2CE72B131FD4CF5D00C77412 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE72B121FD4CF5D00C77412 /* SignUpViewController.swift */; };
+		2CE72B1D1FDBF55600C77412 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE72B1A1FDBF55600C77412 /* VideoSplashViewController.swift */; };
+		2CE72B1E1FDBF55600C77412 /* spotify.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CE72B1B1FDBF55600C77412 /* spotify.mp4 */; };
+		2CE72B1F1FDBF55600C77412 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE72B1C1FDBF55600C77412 /* VideoCutter.swift */; };
+		A17293CF35EED7F45B20063A /* Pods_CE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045AC522DD0E1E63B6EFD1D /* Pods_CE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,17 @@
 		2C16672D1FD32EB900C1A063 /* CEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1667311FD32EB900C1A063 /* CEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEUITests.swift; sourceTree = "<group>"; };
 		2C1667331FD32EB900C1A063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2BE70D1FE3681F00522FC8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2C2BE70F1FE37D6C00522FC8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2CE72B0E1FD4CA5900C77412 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = SOURCE_ROOT; };
+		2CE72B101FD4CCB100C77412 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2CE72B121FD4CF5D00C77412 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2CE72B1A1FDBF55600C77412 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		2CE72B1B1FDBF55600C77412 /* spotify.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spotify.mp4; sourceTree = "<group>"; };
+		2CE72B1C1FDBF55600C77412 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		5672F08B2BE29E476DD279E7 /* Pods-CE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CE/Pods-CE.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B99901087043E9BE3BE389 /* Pods-CE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CE.release.xcconfig"; path = "Pods/Target Support Files/Pods-CE/Pods-CE.release.xcconfig"; sourceTree = "<group>"; };
+		D045AC522DD0E1E63B6EFD1D /* Pods_CE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17293CF35EED7F45B20063A /* Pods_CE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				2C1667251FD32EB900C1A063 /* CETests */,
 				2C1667301FD32EB900C1A063 /* CEUITests */,
 				2C16670F1FD32EB900C1A063 /* Products */,
+				9FF2B4D62D33DDEB4AB7641A /* Frameworks */,
+				A6E37851FFD2CB473F30DDD8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +120,20 @@
 		2C1667101FD32EB900C1A063 /* CE */ = {
 			isa = PBXGroup;
 			children = (
+				2C2BE70F1FE37D6C00522FC8 /* 2.png */,
+				2C2BE70D1FE3681F00522FC8 /* 1.png */,
+				2CE72B1B1FDBF55600C77412 /* spotify.mp4 */,
+				2CE72B1C1FDBF55600C77412 /* VideoCutter.swift */,
+				2CE72B1A1FDBF55600C77412 /* VideoSplashViewController.swift */,
 				2C1667111FD32EB900C1A063 /* AppDelegate.swift */,
 				2C1667131FD32EB900C1A063 /* ViewController.swift */,
 				2C1667151FD32EB900C1A063 /* Main.storyboard */,
 				2C1667181FD32EB900C1A063 /* Assets.xcassets */,
+				2CE72B121FD4CF5D00C77412 /* SignUpViewController.swift */,
 				2C16671A1FD32EB900C1A063 /* LaunchScreen.storyboard */,
 				2C16671D1FD32EB900C1A063 /* Info.plist */,
+				2CE72B101FD4CCB100C77412 /* GoogleService-Info.plist */,
+				2CE72B0E1FD4CA5900C77412 /* test.txt */,
 			);
 			path = CE;
 			sourceTree = "<group>";
@@ -125,6 +156,23 @@
 			path = CEUITests;
 			sourceTree = "<group>";
 		};
+		9FF2B4D62D33DDEB4AB7641A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D045AC522DD0E1E63B6EFD1D /* Pods_CE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E37851FFD2CB473F30DDD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5672F08B2BE29E476DD279E7 /* Pods-CE.debug.xcconfig */,
+				C2B99901087043E9BE3BE389 /* Pods-CE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C1667361FD32EB900C1A063 /* Build configuration list for PBXNativeTarget "CE" */;
 			buildPhases = (
+				3F0DC9AC0D685820690F3BC7 /* [CP] Check Pods Manifest.lock */,
 				2C16670A1FD32EB900C1A063 /* Sources */,
 				2C16670B1FD32EB900C1A063 /* Frameworks */,
 				2C16670C1FD32EB900C1A063 /* Resources */,
+				CFCF81F875614AAFDD9BF654 /* [CP] Embed Pods Frameworks */,
+				2CFA6143EF4AE2182C9B0A7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +285,12 @@
 			files = (
 				2C16671C1FD32EB900C1A063 /* LaunchScreen.storyboard in Resources */,
 				2C1667191FD32EB900C1A063 /* Assets.xcassets in Resources */,
+				2C2BE7101FE37D6C00522FC8 /* 2.png in Resources */,
+				2CE72B1E1FDBF55600C77412 /* spotify.mp4 in Resources */,
+				2CE72B111FD4CCB100C77412 /* GoogleService-Info.plist in Resources */,
+				2CE72B0F1FD4CA5900C77412 /* test.txt in Resources */,
 				2C1667171FD32EB900C1A063 /* Main.storyboard in Resources */,
+				2C2BE70E1FE3681F00522FC8 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +310,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CFA6143EF4AE2182C9B0A7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CE/Pods-CE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0DC9AC0D685820690F3BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCF81F875614AAFDD9BF654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CE/Pods-CE-frameworks.sh",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CE/Pods-CE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C16670A1FD32EB900C1A063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE72B1F1FDBF55600C77412 /* VideoCutter.swift in Sources */,
+				2CE72B131FD4CF5D00C77412 /* SignUpViewController.swift in Sources */,
 				2C1667141FD32EB900C1A063 /* ViewController.swift in Sources */,
 				2C1667121FD32EB900C1A063 /* AppDelegate.swift in Sources */,
+				2CE72B1D1FDBF55600C77412 /* VideoSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +547,12 @@
 		};
 		2C1667371FD32EB900C1A063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5672F08B2BE29E476DD279E7 /* Pods-CE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GIX.CE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +563,12 @@
 		};
 		2C1667381FD32EB900C1A063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B99901087043E9BE3BE389 /* Pods-CE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GIX.CE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
